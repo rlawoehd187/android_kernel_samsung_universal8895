@@ -15,4 +15,5 @@ dtb-$(CONFIG_CAMERA_GREAT) += exynos8895-greatlte_eur_open_02.dtb \
 	exynos8895-greatlte_eur_open_06.dtb
 
 always            := $(dtb-y) $(dtbo-y)
+subdir-y	  := $(dts-dirs)
 clean-files       := *.dtb*
