@@ -17,6 +17,10 @@ config SKIP_HW_BREAKPOINT
 	help
 	  Support early param for T32 onchip breakpoint
 
+config MACH_EXYNOS8895_DREAMLTE_KOR
+	bool "Galaxy S8 (SM-G950N)"
+	select EXYNOS_DTBTOOL
+
 endmenu
 
 endif
